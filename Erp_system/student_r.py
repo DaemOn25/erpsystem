@@ -10,7 +10,7 @@ class Database:
 
         self.master= master
         # heading label
-        self.heading = tkinter.Label(master, text="Add to Database",  fg='steelblue', font=('arial 40 bold'))
+        self.heading = tkinter.Label(master, text="Student Registration",  fg='steelblue', font=('arial 40 bold'))
         self.heading.place(x=450, y=0)
         
         #labels 
@@ -92,5 +92,5 @@ root = tkinter.Tk()
 b = Database(root)
 
 root.geometry("1200x720+0+0")
-root.title("Add to Database")
+root.title("Student Registration")
 root.mainloop()
